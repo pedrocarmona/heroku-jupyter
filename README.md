@@ -27,7 +27,7 @@ repository to your heroku app.
 
 Use the [heroku-buildpack-conda](https://github.com/pedrocarmona/heroku-buildpack-conda):
 ```
-$ heroku buildpacks:set https://github.com/pedrocarmona/heroku-buildpack-conda.git -a <your_app>
+$ heroku buildpacks:set https://github.com/conda/conda-buildpack.git -a <your_app>
 ```
 
 Jupyter notebook will not start until the environment variable
