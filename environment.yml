@@ -11,7 +11,7 @@ dependencies:
   # get dependencies for pgcontents
   - certifi
   - click
-  - cryptography 
+  - cryptography
   - mako
   - psycopg2
   - six
@@ -20,3 +20,6 @@ dependencies:
   - pip:
     - pgcontents
     - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
+  - pandas
+  - numpy
+  - matplotlib
