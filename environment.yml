@@ -17,9 +17,14 @@ dependencies:
   - six
   - sqlalchemy
   - nose
-  - pip:
-    - pgcontents
-    - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
   - pandas
   - numpy
   - matplotlib
+  - bokeh
+  - nodejs=0.10.*
+  - flask
+  - pip:
+    - Flask-Testing
+    - pgcontents
+    - git+git://github.com/ipython-contrib/jupyter_contrib_nbextensions.git
+
