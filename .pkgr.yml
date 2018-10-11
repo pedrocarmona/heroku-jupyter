@@ -6,5 +6,3 @@ user: "heroku-jupyter"
 group: "heroku-jupyter"
 env:
   - HOME=/opt/heroku-jupyter
-before:
-  - mkdir /opt/heroku-jupyter
