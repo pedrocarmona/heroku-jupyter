@@ -5,3 +5,4 @@ targets:
 buildpack: https://github.com/pl31/heroku-buildpack-conda.git
 user: "heroku-jupyter"
 group: "heroku-jupyter"
+home: "/opt/heroku-jupyter"
