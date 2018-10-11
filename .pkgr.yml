@@ -1,8 +1,7 @@
 targets:
   ubuntu-18.04:
     env:
-      - HOME=/opt/heroku-jupyter
-buildpack: https://github.com/pl31/heroku-buildpack-conda.git
+      - COMPILE_HOME=/opt/heroku-jupyter
+buildpack: https://github.com/pedrocarmona/heroku-buildpack-conda.git
 user: "heroku-jupyter"
 group: "heroku-jupyter"
-home: "/opt/heroku-jupyter"
