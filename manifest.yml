@@ -4,7 +4,7 @@ applications:
 - name: jupyter
   memory: 512M
   instances: 1
-  buildpack: https://github.com/conda/conda-buildpack.git
+  buildpack: https://github.com/paddymul/conda-buildpack.git
   random-route: true
   command: ~/start_jupyter
   services:
